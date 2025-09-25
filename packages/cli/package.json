@@ -1,6 +1,6 @@
 {
   "name": "ui-startkit",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Adicione componentes reutilizáveis ao seu projeto",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
