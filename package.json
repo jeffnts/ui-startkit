@@ -10,7 +10,7 @@
     "build": "npm run build --workspaces",
     "serve": "npx http-server ./packages/ui/storybook-static",
     "build-cli": "npm run build -w=@jeffnts/ui-startkit",
-    "publish-cli": "npm publish --access public -w=@jeffnts/ui-startkit"
+    "publish-cli": "npm publish -w=@jeffnts/ui-startkit"
   },
   "keywords": [],
   "author": "",
