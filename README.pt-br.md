@@ -1,11 +1,11 @@
 [<img src="https://flagcdn.com/w20/us.png" alt="Bandeira dos EUA" width="20">  Read in: 🇺🇸 English](README.md)
 
-# @roxygens/ui-startkit
+# @jeffnts/ui-startkit
 
-Bem-vindo ao `@roxygens/ui-startkit`! 🎨
+Bem-vindo ao `@jeffnts/ui-startkit`! 🎨
 Uma coleção de **componentes de UI reutilizáveis, acessíveis e customizáveis**, inspirados na filosofia do [Shadcn/ui](https://ui.shadcn.com/).
 
-Diferente de bibliotecas tradicionais, `@roxygens/ui-startkit` fornece uma **CLI** que permite copiar os componentes diretamente para o seu projeto, garantindo **total controle sobre o código**.
+Diferente de bibliotecas tradicionais, `@jeffnts/ui-startkit` fornece uma **CLI** que permite copiar os componentes diretamente para o seu projeto, garantindo **total controle sobre o código**.
 
 ---
 
@@ -29,7 +29,7 @@ Antes de começar, seu projeto deve ter:
 ### Inicializar o `ui-startkit`
 
 ```bash
-npx @roxygens/ui-startkit@latest init
+npx @jeffnts/ui-startkit@latest init
 ```
 
 Isso configura os estilos base e dependências no seu projeto.
@@ -37,13 +37,13 @@ Isso configura os estilos base e dependências no seu projeto.
 ### Adicionar componentes
 
 ```bash
-npx @roxygens/ui-startkit@latest add <nome-do-componente>
+npx @jeffnts/ui-startkit@latest add <nome-do-componente>
 ```
 
 **Exemplo:** Adicionando o componente `Button`:
 
 ```bash
-npx @roxygens/ui-startkit@latest add button
+npx @jeffnts/ui-startkit@latest add button
 ```
 
 O componente será criado em `src/components/ui/button.tsx` e você poderá usá-lo assim:
@@ -63,109 +63,109 @@ export function MeuComponente() {
 ### Avatar
 
 ```bash
-npx @roxygens/ui-startkit@latest add avatar
+npx @jeffnts/ui-startkit@latest add avatar
 ```
 
 ### Badge
 
 ```bash
-npx @roxygens/ui-startkit@latest add badge
+npx @jeffnts/ui-startkit@latest add badge
 ```
 
 ### Breadcrumb
 
 ```bash
-npx @roxygens/ui-startkit@latest add breadcrumb
+npx @jeffnts/ui-startkit@latest add breadcrumb
 ```
 
 ### Button
 
 ```bash
-npx @roxygens/ui-startkit@latest add button
+npx @jeffnts/ui-startkit@latest add button
 ```
 
 ### Card
 
 ```bash
-npx @roxygens/ui-startkit@latest add card
+npx @jeffnts/ui-startkit@latest add card
 ```
 
 ### Checkbox
 
 ```bash
-npx @roxygens/ui-startkit@latest add checkbox
+npx @jeffnts/ui-startkit@latest add checkbox
 ```
 
 ### Date Picker
 
 ```bash
-npx @roxygens/ui-startkit@latest add date-picker
+npx @jeffnts/ui-startkit@latest add date-picker
 ```
 
 ### Input
 
 ```bash
-npx @roxygens/ui-startkit@latest add input
+npx @jeffnts/ui-startkit@latest add input
 ```
 
 ### Input OTP
 
 ```bash
-npx @roxygens/ui-startkit@latest add input-otp
+npx @jeffnts/ui-startkit@latest add input-otp
 ```
 
 ### Pagination
 
 ```bash
-npx @roxygens/ui-startkit@latest add pagination
+npx @jeffnts/ui-startkit@latest add pagination
 ```
 
 ### Progress Bar
 
 ```bash
-npx @roxygens/ui-startkit@latest add progress-bar
+npx @jeffnts/ui-startkit@latest add progress-bar
 ```
 
 ### Radio Group
 
 ```bash
-npx @roxygens/ui-startkit@latest add radio-group
+npx @jeffnts/ui-startkit@latest add radio-group
 ```
 
 ### Score Bar
 
 ```bash
-npx @roxygens/ui-startkit@latest add score-bar
+npx @jeffnts/ui-startkit@latest add score-bar
 ```
 
 ### Select
 
 ```bash
-npx @roxygens/ui-startkit@latest add select
+npx @jeffnts/ui-startkit@latest add select
 ```
 
 ### Switch
 
 ```bash
-npx @roxygens/ui-startkit@latest add switch
+npx @jeffnts/ui-startkit@latest add switch
 ```
 
 ### Table
 
 ```bash
-npx @roxygens/ui-startkit@latest add table
+npx @jeffnts/ui-startkit@latest add table
 ```
 
 ### Tabs
 
 ```bash
-npx @roxygens/ui-startkit@latest add tabs
+npx @jeffnts/ui-startkit@latest add tabs
 ```
 
 ### Tooltip
 
 ```bash
-npx @roxygens/ui-startkit@latest add tooltip
+npx @jeffnts/ui-startkit@latest add tooltip
 ```
 
 
@@ -178,7 +178,7 @@ npx @roxygens/ui-startkit@latest add tooltip
 ### Preparar o ambiente
 
 ```bash
-git clone https://github.com/roxygens/ui-startkit.git
+git clone https://github.com/jeffnts/ui-startkit.git
 cd ui-startkit
 npm install
 ```
@@ -226,11 +226,11 @@ Acesse: [http://localhost:6006](http://localhost:6006) para visualizar os compon
   "files": [
     {
       "path": "components/ui/meu-componente.tsx",
-      "contentUrl": "https://raw.githubusercontent.com/roxygens/ui-startkit/refs/heads/main/packages/ui/src/components/ui/meu-componente/meu-componente.tsx"
+      "contentUrl": "https://raw.githubusercontent.com/jeffnts/ui-startkit/refs/heads/main/packages/ui/src/components/ui/meu-componente/meu-componente.tsx"
     },
     {
       "path": "lib/utils.ts",
-      "contentUrl": "https://raw.githubusercontent.com/roxygens/ui-startkit/refs/heads/main/packages/ui/src/lib/utils.ts"
+      "contentUrl": "https://raw.githubusercontent.com/jeffnts/ui-startkit/refs/heads/main/packages/ui/src/lib/utils.ts"
     }
   ]
 }
@@ -281,7 +281,7 @@ npm run publish-cli   # publica a CLI
 
 ## 📖 Documentação
 
-Para ver todos os componentes e exemplos, acesse: [https://ui.roxygens.com](https://ui.roxygens.com)
+Para ver todos os componentes e exemplos, acesse: [https://ui.jeffnts.com](https://ui.jeffnts.com)
 
 ---
 

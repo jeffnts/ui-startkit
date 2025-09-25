@@ -110,7 +110,7 @@ program
     const spinner = ora('Buscando registro de componentes...').start()
     try {
       const REGISTRY_API_URL =
-        'https://api.github.com/repos/roxygens/ui-startkit/contents/registry.json'
+        'https://api.github.com/repos/jeffnts/ui-startkit/contents/registry.json'
 
       const token = getNpmToken()
 
@@ -140,7 +140,7 @@ program
         config = JSON.parse(configContent)
       } catch (error) {
         spinner.fail(
-          'Erro: Arquivo `components.json` não encontrado. Por favor, execute `npx @roxygens/ui-startkit@latest init` primeiro.',
+          'Erro: Arquivo `components.json` não encontrado. Por favor, execute `npx @jeffnts/ui-startkit@latest init` primeiro.',
         )
         return
       }
