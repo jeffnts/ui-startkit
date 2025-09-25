@@ -18,6 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/jeffnts/ui-startkit.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "commander": "^14.0.0",
     "dotenv": "^17.2.1",
