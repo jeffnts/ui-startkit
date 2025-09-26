@@ -32,7 +32,7 @@ program
           type: 'text',
           name: 'componentsAlias',
           message: 'Qual alias você quer para os componentes?',
-          initial: '@/components',
+          initial: '@/components/ui',
         },
         {
           type: 'text',
